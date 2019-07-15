@@ -1,0 +1,14 @@
+threee types of exception
+a. unchecked
+b. checked
+c. error
+
+a. unchecked : the exception which are not checked by compiler then it is
+unchecked exception. But at runtime JVM shows exception.
+
+b. Checked: exception checked by compiler.
+
+
+Create Table User_Type (User_Type_Id INT Auto_Increment Primary Key, Description Text);
+Create Table Address_Type (Address_Type_Id INT Auto_Increment Primary Key, Description Text);
+Create User(User_Id int Not Null,First_Name char(50) Not Null,Middle_Name char(50), Last_Name(50),Billing_Address char(100) Not Null, Address_2 char(100),City char(50) Not Null,                                                       nt Not Null,
